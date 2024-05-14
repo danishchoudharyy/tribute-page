@@ -1,0 +1,42 @@
+.tribute-container{
+    background-color:rgb(155, 97, 97);
+}
+.title{
+    color:black;
+    background-color:bisque;
+    box-shadow:20px 30px 30px brown;
+    font-size:40px;
+    text-align:center;
+}
+.imagecontainer img{
+    width:100%;
+    height:auto;
+}
+.title-apj{
+    text-align:center;
+    color:rgb(40, 6, 6);
+    font-size:40px;
+    /* box-shadow:20px 20px 6px rgb(108, 99, 99); */
+}
+.data-footer{
+    height:300px;
+    width:80%;
+    border:2px normal black;
+}
+/* #follow-us{
+    margin-left:800px;
+} */
+/* p{
+    padding:20px;
+    margin:20px;
+} */
+.modify{
+    color:black;
+    margin-left:100px;
+}
+@media(orientation:landscape){
+    .imagecontainer img{
+        border-radius:50%;
+        box-shadow:20px 20px 30px black;
+    }
+}
